@@ -41,20 +41,41 @@
   </style>
 </head>
 
-<body>
+<body class="bg-white dark:bg-gray-900">
   <!-- Header Section -->
-  <header class="max-w-screen-xl	mx-auto">
+  <header class="max-w-screen-xl	mx-auto ">
 
     <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-4">
-        <a href="#" class="flex items-center">
-          <img src="./images/cup.png" class="h-8 mr-3" alt="TeaHouse Logo">
-          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">TeaHouse</span>
+        <a href="#" class="flex items-center gap-4">
+          <svg class="text-gray-900 dark:text-white" width="" height="48" viewBox="0 0 62 65" fill=""
+            xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_60_141)">
+              <path
+                d="M55.3551 27.8521L7.23615 34.7869C5.15259 35.0932 3.04087 34.397 1.63306 32.8652C0.619437 31.7512 0 30.2751 0 28.6598C0 25.3178 2.64668 22.5884 5.99727 22.4213C6.22252 22.4213 6.41962 22.3935 6.64487 22.3656L54.7639 15.4588C56.8474 15.1524 58.9591 15.8487 60.3669 17.3804C61.3806 18.4944 62 19.9705 62 21.5858C62 24.9279 59.3533 27.6572 56.0027 27.8243C55.8056 27.7964 55.5804 27.8243 55.3551 27.8521Z"
+                fill="currentColor" />
+              <path
+                d="M50.3433 44.2838L11.6567 49.8539C8.16529 49.8539 5.34967 47.0689 5.34967 43.6154C5.34967 40.162 8.16529 37.3769 11.6567 37.3769L50.3433 31.8069C53.8347 31.8069 56.6503 34.5919 56.6503 38.0454C56.6503 41.4709 53.8347 44.2838 50.3433 44.2838Z"
+                fill="currentColor" />
+              <path
+                d="M40.1226 61.3561L21.8492 64.1411C18.3579 64.1411 15.5422 61.3561 15.5422 57.9026C15.5422 54.4492 18.3579 51.6642 21.8492 51.6642L40.1226 48.8792C43.614 48.8792 46.4296 51.6642 46.4296 55.1176C46.4578 58.5711 43.614 61.3561 40.1226 61.3561Z"
+                fill="currentColor" />
+              <path
+                d="M37.307 14.7625V6.37958C37.307 2.92614 34.4914 0.141113 31 0.141113C27.5086 0.141113 24.693 2.92614 24.693 6.37958V16.5728L37.307 14.7625Z"
+                fill="currentColor" />
+            </g>
+            <defs>
+              <clipPath id="clip0_60_141">
+                <rect width="62" height="64" fill="" transform="translate(0 0.141113)" />
+              </clipPath>
+            </defs>
+          </svg>
+          <p class="self-center text-2xl font-extrabold whitespace-nowrap dark:text-white">TeaHouse</p>
         </a>
         <div class="flex md:order-2">
 
           <button type="button"
-            class="text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-bold rounded-lg text-xl px-5 py-4 text-center flex items-center gap-4">Explore
+            class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-bold rounded-lg text-xl px-5 py-4 text-center flex items-center gap-4">Explore
             More <img src="./images/arrow.png" alt=""></button>
 
 
@@ -73,7 +94,7 @@
             class="flex flex-col gap-9 p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             <li>
               <a href="#"
-                class="block py-2 pl-3 pr-4 font-medium text-xl text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
+                class="block py-2 pl-3 pr-4 font-medium text-xl text-white bg-blue-700 rounded md:bg-transparent md:text-orange-600 md:p-0 md:dark:text-orange-400"
                 aria-current="page">Home</a>
             </li>
             <li>
@@ -102,21 +123,22 @@
     <section class="bg-white dark:bg-gray-900 my-32">
       <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div class="mr-auto place-self-center lg:col-span-7">
-          <h1 class="max-w-2xl mb-4 text-5xl font-extrabold md:text-5xl xl:text-[80px] text-gray-900 dark:text-white">
+          <h1
+            class="max-w-2xl mb-4 text-5xl font-extrabold lg:leading-tight md:text-5xl lg:text-[80px] text-gray-900 dark:text-white">
             It's good <br>
             tea time at The <br>Tea House</h1>
           <p class="max-w-2xl mb-6 font-medium text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Tea and
             Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
           <button type="button"
-            class="text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-bold rounded-lg text-xl px-5 py-5 text-center flex items-center gap-4">Explore
+            class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-bold rounded-lg text-xl px-5 py-5 text-center flex items-center gap-4">Explore
             More <img src="./images/arrow.png" alt=""></button>
 
         </div>
-        <div class="hidden lg:mt-0 lg:col-span-5 lg:flex relative">
-          <img src="./images/banner.png" alt="mockup">
+        <div class="hidden lg:mt-0 lg:col-span-5 lg:flex relative w-full">
+          <img class="w-full" src="./images/banner.png" alt="mockup">
 
           <div class="flex absolute bg-white py-5 px-7 rounded-lg drop-shadow-xl gap-3 left-0 bottom-0 items-center">
-            <div>
+            <div class="">
               <img class="" src="./images/star.png" alt="">
             </div>
             <div>
@@ -139,7 +161,8 @@
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 ">
 
         <!-- card -->
-        <div class="text-center max-w-sm bg-gradient-to-b from-stone-100 to-[#f4f4f400] rounded-lg p-7">
+        <div
+          class="text-center max-w-sm bg-gradient-to-b from-stone-100 dark:from-stone-100/40 to-[#f4f4f400] rounded-lg p-7">
           <a href="#" class="">
             <img class="rounded-t-lg mx-auto" src="./images/tea-1.png" alt="" />
           </a>
@@ -150,7 +173,8 @@
         </div>
 
         <!-- card -->
-        <div class="text-center max-w-sm bg-gradient-to-b from-stone-100 to-[#f4f4f400] rounded-lg p-7">
+        <div
+          class="text-center max-w-sm bg-gradient-to-b from-stone-100 dark:from-stone-100/40 to-[#f4f4f400] rounded-lg p-7">
           <a href="#" class="">
             <img class="rounded-t-lg mx-auto" src="./images/tea-2.png" alt="" />
           </a>
@@ -161,7 +185,8 @@
         </div>
 
         <!-- card -->
-        <div class="text-center max-w-sm bg-gradient-to-b from-stone-100 to-[#f4f4f400] rounded-lg p-7">
+        <div
+          class="text-center max-w-sm bg-gradient-to-b from-stone-100 dark:from-stone-100/40 to-[#f4f4f400] rounded-lg p-7">
           <a href="#" class="">
             <img class="rounded-t-lg mx-auto" src="./images/tea-3.png" alt="" />
           </a>
@@ -172,7 +197,8 @@
         </div>
 
         <!-- card -->
-        <div class="text-center max-w-sm bg-gradient-to-b from-stone-100 to-[#f4f4f400] rounded-lg p-7">
+        <div
+          class="text-center max-w-sm bg-gradient-to-b from-stone-100 dark:from-stone-100/40 to-[#f4f4f400] rounded-lg p-7">
           <a href="#" class="">
             <img class="rounded-t-lg mx-auto" src="./images/tea-4.png" alt="" />
           </a>
@@ -195,10 +221,11 @@
         <div class="w-full bg-[#5776391A] row-span-2 rounded-lg p-8"><img class="m-auto" src="./images/fresh-2.png"
             alt="">
         </div>
-        <div class="w-full rounded-lg bg-gradient-to-r from-gray-300 to-transparent"></div>
+        <div class="w-full rounded-lg dark:opacity-10 bg-gradient-to-r from-gray-300 to-transparent"></div>
       </div>
       <div class="w-full">
-        <h2 class="font-extrabold text-5xl text-gray-900 dark:text-white">Great Tea, Freshly Presented</h2>
+        <h2 class="font-extrabold text-5xl text-gray-900 dark:text-white leading-snug">Great Tea, Freshly <br>Presented
+        </h2>
         <p class="font-medium text-gray-700 dark:text-gray-400 mt-5 mb-8">The meaning of gong cha is chanese is to
           provide the best tea to emperor from all possessions . It represents the highest quality and self expectation.
           Establishing in 2006, Gong cha had been deeply appreciated by its custoers because of good words of mouth and
@@ -218,7 +245,7 @@
       class="flex flex-col md:flex-row items-center my-32 rounded-lg bg-gradient-to-r from-red-500 to-orange-500 py-24 px-16">
       <div class="w-2/5">
         <h2 class="mb-5 text-5xl font-extrabold tracking-tight text-white dark:text-white">Meet Our Super Clients</h2>
-        <p class="mb-6 font-medium text-gray-100 dark:text-gray-400">There are many variations of passages of Lorem
+        <p class="mb-6 font-medium text-gray-100 dark:text-gray-50">There are many variations of passages of Lorem
           Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised
           words which don't look even slightly believable. </p>
         <button type="button" class="bg-white px-7 py-4 rounded-lg text-xl font-bold  "><span
@@ -334,17 +361,40 @@
   </main>
 
   <!-- Footer Section -->
-  <footer class="bg-[#FFE7E6] dark:bg-gray-900 py-32">
+  <footer class="bg-[#FFE7E6] dark:bg-gray-800 py-32 border-t border-gray-200 dark:border-gray-600">
 
 
     <div class="mx-auto w-full max-w-screen-xl">
 
       <div class="flex items-center justify-between mb-24">
-        <img src="./images/cup.png" alt="">
+        <svg class="text-gray-900 dark:text-white" width="62" height="65" viewBox="0 0 62 65" fill=""
+          xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_60_141)">
+            <path
+              d="M55.3551 27.8521L7.23615 34.7869C5.15259 35.0932 3.04087 34.397 1.63306 32.8652C0.619437 31.7512 0 30.2751 0 28.6598C0 25.3178 2.64668 22.5884 5.99727 22.4213C6.22252 22.4213 6.41962 22.3935 6.64487 22.3656L54.7639 15.4588C56.8474 15.1524 58.9591 15.8487 60.3669 17.3804C61.3806 18.4944 62 19.9705 62 21.5858C62 24.9279 59.3533 27.6572 56.0027 27.8243C55.8056 27.7964 55.5804 27.8243 55.3551 27.8521Z"
+              fill="currentColor" />
+            <path
+              d="M50.3433 44.2838L11.6567 49.8539C8.16529 49.8539 5.34967 47.0689 5.34967 43.6154C5.34967 40.162 8.16529 37.3769 11.6567 37.3769L50.3433 31.8069C53.8347 31.8069 56.6503 34.5919 56.6503 38.0454C56.6503 41.4709 53.8347 44.2838 50.3433 44.2838Z"
+              fill="currentColor" />
+            <path
+              d="M40.1226 61.3561L21.8492 64.1411C18.3579 64.1411 15.5422 61.3561 15.5422 57.9026C15.5422 54.4492 18.3579 51.6642 21.8492 51.6642L40.1226 48.8792C43.614 48.8792 46.4296 51.6642 46.4296 55.1176C46.4578 58.5711 43.614 61.3561 40.1226 61.3561Z"
+              fill="currentColor" />
+            <path
+              d="M37.307 14.7625V6.37958C37.307 2.92614 34.4914 0.141113 31 0.141113C27.5086 0.141113 24.693 2.92614 24.693 6.37958V16.5728L37.307 14.7625Z"
+              fill="currentColor" />
+          </g>
+          <defs>
+            <clipPath id="clip0_60_141">
+              <rect width="62" height="64" fill="" transform="translate(0 0.141113)" />
+            </clipPath>
+          </defs>
+        </svg>
+
+
         <div class="flex items-center gap-10 pr-16">
-          <p>Ready to get strated?</p>
+          <p class="text-gray-500 dark:text-gray-300 font-medium text-xl">Ready to get started?</p>
           <button type="button"
-            class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Get
+            class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 rounded-lg text-xl font-bold px-6 py-4 text-center">Get
             Started</button>
 
         </div>
@@ -352,7 +402,7 @@
 
       <div class="grid grid-cols-2 gap-8 md:grid-cols-4 mb-16">
         <div>
-          <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Quick Links</h2>
+          <h2 class="mb-6 text-xl font-semibold text-gray-900 dark:text-white">Quick Links</h2>
           <ul class="text-gray-500 dark:text-gray-400 font-medium">
             <li class="mb-4">
               <a href="#" class=" hover:underline">Home</a>
@@ -370,7 +420,7 @@
         </div>
 
         <div>
-          <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Services</h2>
+          <h2 class="mb-6 text-xl font-semibold text-gray-900 dark:text-white">Services</h2>
           <ul class="text-gray-500 dark:text-gray-400 font-medium">
             <li class="mb-4">
               <a href="#" class="hover:underline">Walk In</a>
@@ -388,7 +438,7 @@
         </div>
 
         <div>
-          <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h2>
+          <h2 class="mb-6 text-xl font-semibold text-gray-900 dark:text-white">Company</h2>
           <ul class="text-gray-500 dark:text-gray-400 font-medium">
             <li class="mb-4">
               <a href="#" class="hover:underline">FAQs</a>
@@ -403,20 +453,21 @@
         </div>
 
         <div>
-          <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Newsletter</h2>
+          <!-- <h2 class="mb-6 text-xl font-semibold text-gray-900 dark:text-white">Newsletter</h2> -->
           <ul class="text-gray-500 dark:text-gray-400 font-medium">
-            <form action="#" class="" class="">
+            <form action="#">
               <label for="email"
-                class="flex-shrink-0 mb-2 mr-auto text-2xl font-semibold text-gray-900 md:mb-0 md:mr-4 dark:text-gray-400 md:m-0">Subscribe
+                class="flex-shrink-0 mb-2 mr-auto text-2xl font-semibold text-gray-900 md:mb-0 md:mr-4 dark:text-white md:m-0">Subscribe
                 to our newsletter</label>
               <input type="email" id="email" placeholder="Email address"
-                class="inline bg-transparent border-x-0 border-t-0 border-b-2 border-gray-500 rounded-none text-gray-900 md:w-64 mb-2 md:mb-0 text-sm focus:ring-blue-500 focus:border-blue-500 w-1 p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                class="inline bg-transparent border-x-0 border-t-0 border-b-2 border-gray-500 rounded-none text-gray-900 md:w-64 mb-2 md:mb-0 text-sm focus:ring-blue-500 focus:border-blue-500 w-1 p-2.5 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                 required />
-              <button type="submit" class=" font-medium text-center text-3xl text-red-500"><i
+              <button type="submit"
+                class=" font-medium text-center text-3xl text-transparent bg-clip-text  bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl"><i
                   class="fa-solid fa-circle-chevron-right"></i></button>
             </form>
           </ul>
-          <div class="text-2xl text-gray-600">
+          <div class="text-2xl text-gray-600 dark:text-gray-300 mt-12">
             <i class="fa-brands fa-facebook mr-5"></i>
             <i class="fa-brands fa-x-twitter mr-5"></i>
             <i class="fa-brands fa-instagram"></i>
